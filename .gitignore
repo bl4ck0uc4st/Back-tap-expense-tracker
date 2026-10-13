@@ -1,0 +1,19 @@
+# Apps Script local tooling
+.clasp.json
+.clasprc.json
+appsscript.json
+
+# Never commit a deployment URL — anyone with it can write to your sheet
+*.local
+secrets.txt
+config.local.*
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
